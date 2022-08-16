@@ -10,6 +10,13 @@ spring:
       connection:
         connect-timeout: 10s
         init-query-timeout: 10s
+  main:
+    allow-circular-references: true
+    
+    
+datadump.location:
+    author: D:\Workspaces\Workspace_java\mybookmark-data-loader\src\main\resources/authors.txt
+    books:  D:\Workspaces\Workspace_java\mybookmark-data-loader\src\main\resources/books.txt
       
       
 datastax.astra:
